@@ -85,6 +85,12 @@ p {
   padding-right: 30px;
 }
 
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+}
+
 input[type="search"]::-webkit-search-cancel-button {
   display: none;
 }
